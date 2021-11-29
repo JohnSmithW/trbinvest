@@ -467,10 +467,12 @@
     font-size: 24px;
     font-weight: normal;
     margin-bottom: 15px;
+    margin-top: 0;
 }
 
 .news__block-about {
     font-size: 14px;
+    margin: 0;
 }
 
 .news__block-text {
@@ -1119,6 +1121,7 @@
     font-size: 13px;
     color: #C2C2C2;
     margin-top: 15px;
+    margin-bottom: 0;
 }
 
 .finance__user-img {
@@ -1142,6 +1145,7 @@
 
 .finance__user-name {
     font-size: 14px;
+    margin: 0;
 }
 
 .finance__block-inner {
