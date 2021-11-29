@@ -176,12 +176,14 @@
 .business__block {
     -ms-flex-preferred-size: 50%;
     flex-basis: 50%;
+    box-sizing: border-box;
 }
 
 .business__block-inner {
     background: #ffffff;
     height: 100%;
     padding: 30px;
+    box-sizing: border-box;
 }
 
 .business__about-title {
@@ -466,6 +468,8 @@
     background: #F5F5F6;
     padding: 32px;
     height: 100%;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 .investors__block-inner-two {
@@ -517,6 +521,7 @@
     background: #F5F5F6 no-repeat url("../images/folder.png") bottom right 32px;
     background-size: 40%;
     padding: 32px;
+    box-sizing: border-box;
 }
 
 .investors__list-wrap {
