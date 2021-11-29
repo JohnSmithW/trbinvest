@@ -658,6 +658,7 @@
     -webkit-transition: color .3s;
     -o-transition: color .3s;
     transition: color .3s;
+    outline: none;
 }
 
 .swiper-button-prev:hover,

@@ -299,7 +299,10 @@
     }
 }
 
-@media all and (max-width: 820px) {
+@media all and (max-width: 840px) {
+    .members-list__stat_tablet {
+        display: none;
+    }
 }
 
 @media all and (max-width: 769px) {
@@ -505,7 +508,8 @@
     }
 
     .header__top-inner {
-        justify-content: end;
+        flex-direction: column;
+        align-items: end;
     }
     .calc-popup__block {
         width: 100%;
@@ -521,12 +525,12 @@
 }
 
 @media all and (max-width: 650px) {
-    .members-list__stat_tablet {
-        display: none;
-    }
 }
 
 @media all and (max-width: 550px) {
+    .members-list__stat_mob {
+        display: none;
+    }
     .plans__percent {
         position: relative;
         right: auto;
