@@ -5,6 +5,13 @@
 * Browsers: last 10 version
 */
 
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.3.6,
+* Autoprefixer: v10.3.1
+* Browsers: last 10 version
+*/
+
 @media all and (max-width: 1025px) {
     .investors__block-three {
         background-size: 50%;
@@ -31,16 +38,19 @@
     }
 
     .stats__block-40 {
+        -ms-flex-preferred-size: 100%;
         flex-basis: 100%;
         padding-right: 0;
         padding-bottom: 25px;
     }
 
     .stats__block-row {
+        -ms-flex-wrap: wrap;
         flex-wrap: wrap;
     }
 
     .stats__block-60 {
+        -ms-flex-preferred-size: 100%;
         flex-basis: 100%;
         padding-left: 0;
         margin-bottom: 25px;
@@ -216,16 +226,19 @@
     }
 
     .team-stats {
+        -ms-flex-wrap: wrap;
         flex-wrap: wrap;
     }
 
     .team-stats__block-40 {
+        -ms-flex-preferred-size: 100%;
         flex-basis: 100%;
         padding-right: 0;
         padding-bottom: 25px;
     }
 
     .team-stats__block-60 {
+        -ms-flex-preferred-size: 100%;
         flex-basis: 100%;
         padding-left: 0;
     }
@@ -235,6 +248,7 @@
     }
 
     .top-list__item {
+        -ms-flex-preferred-size: 50%;
         flex-basis: 50%;
         margin-bottom: 25px;
     }
@@ -244,6 +258,7 @@
     }
 
     .top-list__row {
+        -ms-flex-wrap: wrap;
         flex-wrap: wrap;
     }
 }
@@ -253,7 +268,11 @@
         width: 150px;
     }
     .balances__wrap-col {
+        -ms-flex-wrap: wrap;
         flex-wrap: wrap;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
         flex-direction: column;
     }
 
@@ -263,6 +282,9 @@
     }
 
     .news__block {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
         flex-direction: column;
     }
 
@@ -303,10 +325,12 @@
     }
 
     .finance__block-row {
+        -ms-flex-wrap: wrap;
         flex-wrap: wrap;
     }
 
     .finance__block {
+        -ms-flex-preferred-size: 100%;
         flex-basis: 100%;
     }
 
@@ -325,6 +349,8 @@
         margin-bottom: 25px;
     }
     .members-filter_input {
+        -webkit-box-flex: 1;
+        -ms-flex-positive: 1;
         flex-grow: 1;
         margin-right: 0;
         width: auto;
@@ -339,12 +365,15 @@
         width: 100%;
     }
     .members-filter__input-top {
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
     }
     .members-filter__select {
         width: 100%;
     }
     .members-filter__row {
+        -ms-flex-wrap: wrap;
         flex-wrap: wrap;
         margin-bottom: 0;
     }
@@ -355,7 +384,12 @@
     }
 
     .members-search__form {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
         flex-direction: column;
+        -webkit-box-align: normal;
+        -ms-flex-align: normal;
         align-items: normal;
     }
 
@@ -533,6 +567,7 @@
         font-size: 14px;
     }
     .members-filter__input-top {
+        -ms-flex-wrap: wrap;
         flex-wrap: wrap;
     }
 
@@ -545,6 +580,7 @@
     }
 
     .top-list__item {
+        -ms-flex-preferred-size: 100%;
         flex-basis: 100%;
         margin-bottom: 25px;
     }
@@ -563,6 +599,9 @@
     }
 
     .balances__wrap {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
         flex-direction: column;
     }
 
@@ -610,6 +649,9 @@
     }
 
     .finance-filter__form {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
         flex-direction: column;
     }
 
@@ -653,6 +695,9 @@
     }
 
     .stats__team-body {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
         flex-direction: column;
     }
 
@@ -723,10 +768,12 @@
 @media all and (max-width: 376px) {
 
     .finance__two-label {
+        -ms-flex-wrap: wrap;
         flex-wrap: wrap;
     }
 
     .finance__form-label_50 {
+        -ms-flex-preferred-size: 100%;
         flex-basis: 100%;
         margin-bottom: 25px;
 
@@ -745,6 +792,9 @@
         display: none;
     }
     .team-stats__stats-wrap {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
         flex-direction: column;
     }
     .team-stats__stats-col:first-child {
@@ -752,10 +802,12 @@
         margin-bottom: 25px;
     }
     .stats__plan-percent {
+        -ms-flex-preferred-size: 100%;
         flex-basis: 100%;
         margin-bottom: 10px;
     }
     .stats__plan {
+        -ms-flex-wrap: wrap;
         flex-wrap: wrap;
     }
     .plans__slider {
@@ -787,6 +839,9 @@
     }
 
     .stats__stat-wrap {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
         flex-direction: column;
     }
 

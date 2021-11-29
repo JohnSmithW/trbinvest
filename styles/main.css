@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.3.6,
+* Autoprefixer: v10.3.1
+* Browsers: last 10 version
+*/
+
 * {
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
@@ -17,6 +24,8 @@ input, button {
 }
 
 .header__body-right {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
 }
 
@@ -672,6 +681,8 @@ input, button {
     margin-right: 50px;
     color: #8B8B8B;
     text-decoration: none;
+    -webkit-transition: border .3s;
+    -o-transition: border .3s;
     transition: border .3s;
     border-bottom: solid 1px transparent;
 }
@@ -685,21 +696,27 @@ input, button {
 }
 
 .header__bottom-inner-wrap {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
 }
 
 .team-stats {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     margin-top: 50px;
     margin-bottom: 50px;
 }
 
 .team-stats__block-40 {
+    -ms-flex-preferred-size: 40%;
     flex-basis: 40%;
     padding-right: 15px;
 }
 
 .team-stats__block-60 {
+    -ms-flex-preferred-size: 60%;
     flex-basis: 60%;
     padding-left: 15px;
 }
