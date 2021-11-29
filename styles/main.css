@@ -366,7 +366,7 @@ input, button {
 }
 
 .plans {
-    margin-bottom: 25px;
+    margin-bottom: 50px;
 }
 
 .plans__wrap {
@@ -382,6 +382,7 @@ input, button {
     font-size: 24px;
     margin-bottom: 25px;
     font-weight: normal;
+    display: block;
 }
 
 .plans__button {
@@ -426,6 +427,7 @@ input, button {
     margin-bottom: 5px;
     font-size: 18px;
     color: #8B8B8B;
+    margin-top: 0;
 }
 
 .plans__percent {
@@ -437,6 +439,7 @@ input, button {
     -webkit-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
+    margin: 0;
 }
 
 .plans__info_last {
@@ -508,6 +511,7 @@ input, button {
 .section-title {
     font-size: 36px;
     font-weight: normal;
+    margin: 0;
 }
 
 .footer {
@@ -727,4 +731,5 @@ input, button {
 .block-title {
     font-size: 24px;
     font-weight: normal;
+    margin-top: 0;
 }

@@ -51,11 +51,13 @@
     font-size: 18px;
     font-weight: normal;
     margin-bottom: 10px;
+    margin-top: 0;
 }
 
 .lk-stat__about {
     font-size: 14px;
     color: #8B8B8B;
+    margin: 0;
 }
 
 .balances__item {
@@ -183,6 +185,7 @@
 .stats__plan-percent {
     font-size: 24px;
     font-weight: normal;
+    margin: 0;
 }
 
 .stats__plan-wrap {
@@ -242,6 +245,18 @@
     -webkit-appearance: none;
     font-weight: normal;
     border: 0;
+}
+
+.default-select__wrap {
+    position: relative;
+}
+
+.default-select__img {
+    width: 20px;
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
 }
 
 .profit-graph__select {
@@ -429,8 +444,6 @@
 }
 
 .news__title {
-    font-size: 36px;
-    font-weight: normal;
     margin-bottom: 50px;
 }
 
@@ -492,15 +505,15 @@
 }
 
 .invest-plan__title {
-    font-size: 36px;
-    font-weight: normal;
     margin-bottom: 50px;
+    text-align: center;
 }
 
 .invest-list__title {
     font-size: 24px;
     font-weight: normal;
     margin-bottom: 50px;
+    margin-top: 0;
 }
 
 .invest-list__checkbox {
@@ -748,8 +761,6 @@
 }
 
 .leaders-list__title {
-    font-size: 36px;
-    font-weight: normal;
     margin-bottom: 50px;
 }
 
@@ -783,8 +794,6 @@
 
 .members__title {
     margin-bottom: 50px;
-    font-size: 36px;
-    font-weight: normal;
 }
 
 .members__block-title-wrap {
@@ -795,6 +804,10 @@
     -ms-flex-align: center;
     align-items: center;
     margin-bottom: 25px;
+}
+
+.members__block-title {
+    margin-bottom: 0;
 }
 
 .members__block-title-img {
@@ -842,6 +855,11 @@
 
 .members-filter__select {
     width: 200px;
+    font-size: 14px;
+}
+
+.finance__form-select {
+    width: 100%;
 }
 
 .members-filter_input {
@@ -1004,8 +1022,6 @@
 }
 
 .marketing__title {
-    font-size: 36px;
-    font-weight: normal;
     margin-bottom: 50px;
 }
 

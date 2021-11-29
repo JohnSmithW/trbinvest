@@ -40,11 +40,13 @@
     font-size: 36px;
     font-weight: normal;
     margin-bottom: 25px;
+    margin-top: 0;
 }
 
 .promo__about {
     font-size: 18px;
     margin-bottom: 25px;
+    margin-top: 0;
 }
 
 .promo__list-wrap {
@@ -143,10 +145,12 @@
     font-size: 24px;
     font-weight: normal;
     margin-bottom: 25px;
+    margin-top: 0;
 }
 
 .advantages__about {
     font-size: 18px;
+    margin: 0;
 }
 
 .business {
@@ -189,6 +193,7 @@
     font-size: 18px;
     margin-bottom: 25px;
     max-width: 70%;
+    margin-top: 0;
 }
 
 .business__list {
@@ -229,18 +234,23 @@
 .business__people-title {
     font-size: 36px;
     font-weight: normal;
+    margin-top: 0;
+    margin-bottom: 15px;
 }
 
 .business__people-about {
     font-size: 18px;
+    margin: 0;
 }
 
 .business__people-name {
     font-size: 24px;
+    margin: 0;
 }
 
 .business__people-rang {
     font-size: 14px;
+    margin: 0;
 }
 
 .business__block:last-child {
@@ -282,6 +292,7 @@
 .mass-media__text {
     text-align: center;
     margin-bottom: 25px;
+    margin-top: 0;
 }
 
 .history {
@@ -349,6 +360,7 @@
     font-size: 18px;
     text-align: center;
     margin-bottom: 25px;
+    margin-top: 0;
 }
 
 .history__slide-year {
@@ -361,6 +373,8 @@
 .history__about {
     margin-bottom: 100px;
     max-width: 50%;
+    margin-top: 0;
+    font-size: 18px;
 }
 
 .investors {
@@ -472,6 +486,7 @@
 .investors__block-about {
     max-width: 50%;
     margin-bottom: 50px;
+    margin-top: 0;
 }
 
 .investors__block-img {
@@ -521,6 +536,7 @@
 
 .investors__list-text {
     font-size: 18px;
+    margin: 0;
 }
 
 .investors__list-wrap_last {
@@ -545,6 +561,7 @@
 .reviews__name {
     font-size: 24px;
     font-weight: normal;
+    margin: 0;
 }
 
 .reviews__inst {
@@ -558,6 +575,7 @@
 .reviews__text {
     max-width: 50%;
     margin-bottom: 50px;
+    margin-top: 0;
 }
 
 .reviews__block {
