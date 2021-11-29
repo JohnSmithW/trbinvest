@@ -164,6 +164,7 @@
     cursor: pointer;
     background: #f6f6f6;
     padding: 10px 30px;
+    font-weight: 300;
 }
 
 .header__nav-link:hover {

@@ -511,6 +511,10 @@
         flex-direction: column;
         align-items: end;
     }
+    .header__top-btn-wrap {
+        display: flex;
+        justify-content: end;
+    }
     .calc-popup__block {
         width: 100%;
         height: 100%;
