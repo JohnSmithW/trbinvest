@@ -1,0 +1,380 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/admin.css">
+    <link rel="stylesheet" href="styles/media.css" media="all and (max-width: 1440px)">
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+<main>
+    <header class="header">
+        <div class="header__top">
+            <div class="xl-wrapper header__top-inner">
+                <div class="header__top-nav">
+                    <a href="#" class="header__top-link">8 800 511 69 74</a>
+                    <a href="#" class="header__top-link">trb-invest@mail.ru</a>
+                    <a href="#" class="header__top-link">Онлайн-чат</a>
+                </div>
+                <div class="header__top-btn-wrap">
+                    <button class="header__top-btn"><img class="header__ico" src="images/search_60px.png" alt="search"></button>
+                    <button class="header__top-btn"><img class="header__ico" src="images/sms_90px.png" alt="message"></button>
+                    <button class="header__top-btn header__account-btn-wrap">
+                        <div class="header__account-btn">
+                            <img class="header__ico" src="images/user_90px.png" alt="user">
+                            <span class="header__top-btn-text">Личный кабинет</span>
+                        </div>
+                        <div class="header__account-menu">
+                            <div class="header__account-menu-top">
+                                <img src="images/ryabin-trb.jpg" alt="account-img" class="header__account-img">
+                                <span class="header__account-text-wrap">
+                                    <div class="header__account-name">Никита Рябин</div>
+                                    <a class="header__account-settings" href="#">настройки аккаунта</a>
+                                </span>
+                                <img alt="ico" class="header__account-ico header__account-close" src="images/expand_arrow_100px.png">
+                            </div>
+                            <a class="header__account-menu-bottom" href="#">
+                                <img src="images/exit_30px.png" alt="exit" class="header_account-exit-img">
+                                <span class="header_account-exit-text">выход</span>
+                            </a>
+                        </div>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="header__body">
+            <div class="xl-wrapper header__body-inner">
+                <div class="header__body-nav-wrap">
+                    <a href="/"><img class="logo header__logo" src="images/main-logo.png" alt="main-logo"></a>
+                    <nav class="header__nav">
+                        <div class="header__nav-close">&#10006;</div>
+                        <a class="header__nav-link" href="dashboard.html">Дашбоард</a>
+                        <a class="header__nav-link" href="news.html">Новости</a>
+                        <a class="header__nav-link" href="invest.html">Инвестиции</a>
+                        <a class="header__nav-link" href="team.html">Команда</a>
+                        <a class="header__nav-link" href="finance.html">Финансы</a>
+                        <a class="header__nav-link" href="media.html">Медиа</a>
+                        <a class="header__bottom-link header__bottom-link_m" href="/team.html">Структура команды</a>
+                        <a class="header__bottom-link header__bottom-link_m" href="/members.html">Участники команды</a>
+                        <a class="header__bottom-link header__bottom-link_m" href="/leaders-list.html">Лидеры</a>
+                        <a class="header__bottom-link header__bottom-link_m" href="/marketing.html">Маркетинг</a>
+                    </nav>
+                </div>
+                <div class="header__body-right">
+                    <a class="header__live-wrap" href="#">
+                        <img class="header__live-img" src="images/live.png" alt="live">
+                        <span class="header__live-text">LIVE</span>
+                    </a>
+                    <div class="mobile-button">☰</div>
+                </div>
+            </div>
+        </div>
+        <div class="header__bottom">
+            <div class="header__bottom-inner-wrap xl-wrapper">
+                <a class="header__bottom-link" href="/team.html">Структура команды</a>
+                <a class="header__bottom-link" href="/members.html">Участники команды</a>
+                <a class="header__bottom-link" href="/leaders-list.html">Лидеры</a>
+                <a class="header__bottom-link" href="/marketing.html">Маркетинг</a>
+            </div>
+        </div>
+    </header>
+    <section class="l-wrapper members">
+        <a href="#" class="back-link">назад</a>
+        <h3 class="members__title">Участники вашей команды</h3>
+        <div class="default-block members-search">
+            <div class="members__block-title-wrap">
+                <img src="images/search_client_90px 1.png" alt="member" class="members__block-title-img">
+                <h3 class="block-title">Поиск по структуре</h3>
+            </div>
+            <form class="members-search__form">
+                <div class="members-search__input-wrap">
+                    <input class="default-input members-search__input" placeholder="Логин" type="text">
+                    <input class="default-input members-search__input" placeholder="Номер телефона" type="text">
+                    <input class="default-input members-search__input" placeholder="Почта" type="text">
+                </div>
+                <button class="accent-btn">Поиск</button>
+            </form>
+            <div class="members-search__help">заполните как минимум одно поле для поиска по структуре участников</div>
+        </div>
+        <div class="default-block members-filter">
+            <div class="members__block-title-wrap">
+                <img src="images/tune_90px 2.png" alt="member" class="members__block-title-img">
+                <h3 class="block-title">Фильтры поиска</h3>
+            </div>
+            <form class="members-filter__form">
+                <div class="members-filter__row">
+                    <label class="members-filter__input-wrap">
+                        <select class="default-select members-filter__select">
+                            <option selected disabled>Выберите статус</option>
+                        </select>
+                        <p class="members-filter__about">статус участника</p>
+                    </label>
+                    <div class="members-filter__input-wrap">
+                        <div class="members-filter__input-top">
+                            <input class="default-input members-filter_input" placeholder="Оборот, от" type="text">
+                            <input class="default-input members-filter_input" placeholder="Оборот, до" type="text">
+                        </div>
+                        <p class="members-filter__about">оборот участника</p>
+                    </div>
+                </div>
+                <div class="members-filter__row">
+                    <div class="members-filter__input-wrap">
+                        <div class="members-filter__btn-wrap">
+                            <label class="members-filter__btn-label">
+                                <input class="members-filter__btn-checkbox" type="radio" name="verif">
+                                <div class="members-filter__btn">Нет</div>
+                            </label>
+                            <label class="members-filter__btn-label">
+                                <input class="members-filter__btn-checkbox" type="radio" name="verif">
+                                <div class="members-filter__btn">Да</div>
+                            </label>
+                        </div>
+                        <p class="members-filter__about">верификация участника</p>
+                    </div>
+                    <div class="members-filter__input-wrap">
+                        <div class="members-filter__input-top">
+                            <input class="default-input members-filter_input" placeholder="Инвестиции, от" type="text">
+                            <input class="default-input members-filter_input" placeholder="Инвестиции, до" type="text">
+                        </div>
+                        <p class="members-filter__about">инвестиции участника</p>
+                    </div>
+                </div>
+                <div class="members-filter__row">
+                    <div class="members-filter__input-wrap">
+                        <div class="members-filter__btn-wrap">
+                            <label class="members-filter__btn-label">
+                                <input class="members-filter__btn-checkbox" type="radio" name="verif">
+                                <div class="members-filter__btn">Нет</div>
+                            </label>
+                            <label class="members-filter__btn-label">
+                                <input class="members-filter__btn-checkbox" type="radio" name="verif">
+                                <div class="members-filter__btn">Да</div>
+                            </label>
+                        </div>
+                        <p class="members-filter__about">активация участника</p>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </section>
+    <section class="members-list xl-wrapper">
+        <div class="default-block">
+            <h3 class="block-title members-list__title">Результаты поиска</h3>
+            <div class="members-list__wrap">
+                <div class="members-list__item">
+                    <div class="members-list__top">
+                        <div class="members-list__stat">
+                            <p class="lk-stat__value members-list__login-wrap">ivan1999 <img class="members-list__ico" src="images/ok_30px.png" alt="ok"></p>
+                            <p class="lk-stat__about">логин</p>
+                        </div>
+                        <div class="members-list__stat">
+                            <p class="lk-stat__value">Лидер</p>
+                            <p class="lk-stat__about">статус</p>
+                        </div>
+                        <div class="members-list__stat members-list__stat_mob">
+                            <p class="lk-stat__value">100 000 руб.</p>
+                            <p class="lk-stat__about">сумма инвестиций</p>
+                        </div>
+                        <div class="members-list__stat members-list__stat_tablet">
+                            <p class="lk-stat__value">1 000 000 руб.</p>
+                            <p class="lk-stat__about">командный оборот</p>
+                        </div>
+                        <div class="members-list__stat members-list__stat_tablet">
+                            <p class="lk-stat__value">5</p>
+                            <p class="lk-stat__about">первая линия</p>
+                        </div>
+                        <div class="members-list__stat members-list__stat_desc">
+                            <p class="lk-stat__value">TRB</p>
+                            <p class="lk-stat__about">куратор</p>
+                        </div>
+                    </div>
+                    <div class="members-list__bottom">
+                        дата активации аккаунта 03.02.2021
+                    </div>
+                </div>
+                <div class="members-list__item">
+                    <div class="members-list__top">
+                        <div class="members-list__stat">
+                            <p class="lk-stat__value members-list__login-wrap">ivan1999 <img class="members-list__ico" src="images/ok_30px.png" alt="ok"></p>
+                            <p class="lk-stat__about">логин</p>
+                        </div>
+                        <div class="members-list__stat">
+                            <p class="lk-stat__value">Лидер</p>
+                            <p class="lk-stat__about">статус</p>
+                        </div>
+                        <div class="members-list__stat members-list__stat_mob">
+                            <p class="lk-stat__value">100 000 руб.</p>
+                            <p class="lk-stat__about">сумма инвестиций</p>
+                        </div>
+                        <div class="members-list__stat members-list__stat_tablet">
+                            <p class="lk-stat__value">1 000 000 руб.</p>
+                            <p class="lk-stat__about">командный оборот</p>
+                        </div>
+                        <div class="members-list__stat members-list__stat_tablet">
+                            <p class="lk-stat__value">5</p>
+                            <p class="lk-stat__about">первая линия</p>
+                        </div>
+                        <div class="members-list__stat members-list__stat_desc">
+                            <p class="lk-stat__value">TRB</p>
+                            <p class="lk-stat__about">куратор</p>
+                        </div>
+                    </div>
+                    <div class="members-list__bottom">
+                        дата активации аккаунта 03.02.2021
+                    </div>
+                </div>
+                <div class="members-list__item">
+                    <div class="members-list__top">
+                        <div class="members-list__stat">
+                            <p class="lk-stat__value members-list__login-wrap">ivan1999 <img class="members-list__ico" src="images/ok_30px.png" alt="ok"></p>
+                            <p class="lk-stat__about">логин</p>
+                        </div>
+                        <div class="members-list__stat">
+                            <p class="lk-stat__value">Лидер</p>
+                            <p class="lk-stat__about">статус</p>
+                        </div>
+                        <div class="members-list__stat members-list__stat_mob">
+                            <p class="lk-stat__value">100 000 руб.</p>
+                            <p class="lk-stat__about">сумма инвестиций</p>
+                        </div>
+                        <div class="members-list__stat members-list__stat_tablet">
+                            <p class="lk-stat__value">1 000 000 руб.</p>
+                            <p class="lk-stat__about">командный оборот</p>
+                        </div>
+                        <div class="members-list__stat members-list__stat_tablet">
+                            <p class="lk-stat__value">5</p>
+                            <p class="lk-stat__about">первая линия</p>
+                        </div>
+                        <div class="members-list__stat members-list__stat_desc">
+                            <p class="lk-stat__value">TRB</p>
+                            <p class="lk-stat__about">куратор</p>
+                        </div>
+                    </div>
+                    <div class="members-list__bottom">
+                        дата активации аккаунта 03.02.2021
+                    </div>
+                </div>
+                <div class="members-list__item">
+                    <div class="members-list__top">
+                        <div class="members-list__stat">
+                            <p class="lk-stat__value members-list__login-wrap">ivan1999 <img class="members-list__ico" src="images/ok_30px.png" alt="ok"></p>
+                            <p class="lk-stat__about">логин</p>
+                        </div>
+                        <div class="members-list__stat">
+                            <p class="lk-stat__value">Лидер</p>
+                            <p class="lk-stat__about">статус</p>
+                        </div>
+                        <div class="members-list__stat members-list__stat_mob">
+                            <p class="lk-stat__value">100 000 руб.</p>
+                            <p class="lk-stat__about">сумма инвестиций</p>
+                        </div>
+                        <div class="members-list__stat members-list__stat_tablet">
+                            <p class="lk-stat__value">1 000 000 руб.</p>
+                            <p class="lk-stat__about">командный оборот</p>
+                        </div>
+                        <div class="members-list__stat members-list__stat_tablet">
+                            <p class="lk-stat__value">5</p>
+                            <p class="lk-stat__about">первая линия</p>
+                        </div>
+                        <div class="members-list__stat members-list__stat_desc">
+                            <p class="lk-stat__value">TRB</p>
+                            <p class="lk-stat__about">куратор</p>
+                        </div>
+                    </div>
+                    <div class="members-list__bottom">
+                        дата активации аккаунта 03.02.2021
+                    </div>
+                </div>
+                <div class="members-list__item">
+                    <div class="members-list__top">
+                        <div class="members-list__stat">
+                            <p class="lk-stat__value members-list__login-wrap">ivan1999 <img class="members-list__ico" src="images/ok_30px.png" alt="ok"></p>
+                            <p class="lk-stat__about">логин</p>
+                        </div>
+                        <div class="members-list__stat">
+                            <p class="lk-stat__value">Лидер</p>
+                            <p class="lk-stat__about">статус</p>
+                        </div>
+                        <div class="members-list__stat members-list__stat_mob">
+                            <p class="lk-stat__value">100 000 руб.</p>
+                            <p class="lk-stat__about">сумма инвестиций</p>
+                        </div>
+                        <div class="members-list__stat members-list__stat_tablet">
+                            <p class="lk-stat__value">1 000 000 руб.</p>
+                            <p class="lk-stat__about">командный оборот</p>
+                        </div>
+                        <div class="members-list__stat members-list__stat_tablet">
+                            <p class="lk-stat__value">5</p>
+                            <p class="lk-stat__about">первая линия</p>
+                        </div>
+                        <div class="members-list__stat members-list__stat_desc">
+                            <p class="lk-stat__value">TRB</p>
+                            <p class="lk-stat__about">куратор</p>
+                        </div>
+                    </div>
+                    <div class="members-list__bottom">
+                        дата активации аккаунта 03.02.2021
+                    </div>
+                </div>
+            </div>
+            <div class="pagination">
+                <div class="pagination__link-wrap">
+                    <a class="pagination__link" href="#">1</a>
+                    <span class="pagination__link pagination__link_active">2</span>
+                    <a class="pagination__link" href="#">3</a>
+                    <a class="pagination__link" href="#">4</a>
+                    <a class="pagination__link" href="#">5</a>
+                </div>
+                <div class="pagination__about">страницы</div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer" id="contacts">
+        <div class="xl-wrapper footer__inner-wrap">
+            <div class="footer__nav-wrap">
+                <img src="images/main-logo.png" alt="" class="logo footer__logo">
+                <div class="footer__nav">
+                    <div class="footer__nav-title">Навигация</div>
+                    <a href="/#business" class="footer__nav-link">О бизнесе</a>
+                    <a href="/#plans" class="footer__nav-link">Пакеты</a>
+                    <a href="/#investors" class="footer__nav-link">Инвесторам</a>
+                    <a href="/#reviews" class="footer__nav-link">Отзывы</a>
+                    <a href="#contacts" class="footer__nav-link">Контакты</a>
+                </div>
+                <div class="footer__nav">
+                    <div class="footer__nav-title">Информация</div>
+                    <a href="#" class="footer__nav-link">Договор займа</a>
+                    <a href="#" class="footer__nav-link">Приложение к договору займа</a>
+                    <a href="#" class="footer__nav-link">Приходно-кассовый ордер</a>
+                </div>
+                <div class="footer__nav footer__nav_last">
+                    <div class="footer__nav-title">Контакты</div>
+                    <a href="#" class="footer__nav-link">INFO@TRB-INVEST.RU</a>
+                    <a href="#" class="footer__nav-link">Онлайн чат</a>
+                </div>
+            </div>
+            <div class="footer__number-wrap">
+                <a href="#" class="footer__number">8 800 511 69 74</a>
+                <div class="footer__number-about">бесплатно по России</div>
+            </div>
+        </div>
+        <div class="footer__bottom">
+            <div class="xl-wrapper footer__bottom-inner">
+                <div class="footer__copy">Copyright © 2021, TRB Invest Все торговые марки и авторские права принадлежат их настоящим владельцам</div>
+                <div class="footer__social-wrap">
+                    <a class="footer__social-link footer__social-link_first" href="#"><img class="footer__social-img" src="images/vk_circled_60px.png" alt="social"></a>
+                    <a class="footer__social-link" href="#"><img class="footer__social-img" src="images/Facebook_60px.png" alt="social"></a>
+                    <a class="footer__social-link" href="#"><img class="footer__social-img" src="images/telegram_app_60px.png" alt="social"></a>
+                    <a class="footer__social-link" href="#"><img class="footer__social-img" src="images/instagram_circle_60px.png" alt="social"></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</main>
+</body>
+<script src="scripts/script.js"></script>
+</html>

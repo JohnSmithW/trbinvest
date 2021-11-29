@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/admin.css">
+    <link rel="stylesheet" href="styles/media.css" media="all and (max-width: 1440px)">
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+<main>
+    <header class="header">
+        <div class="header__top">
+            <div class="xl-wrapper header__top-inner">
+                <div class="header__top-nav">
+                    <a href="#" class="header__top-link">8 800 511 69 74</a>
+                    <a href="#" class="header__top-link">trb-invest@mail.ru</a>
+                    <a href="#" class="header__top-link">Онлайн-чат</a>
+                </div>
+                <div class="header__top-btn-wrap">
+                    <button class="header__top-btn"><img class="header__ico" src="images/search_60px.png" alt="search"></button>
+                    <button class="header__top-btn"><img class="header__ico" src="images/sms_90px.png" alt="message"></button>
+                    <a href="/register.html" class="header__top-btn">
+                        <img class="header__ico" src="images/user_90px.png" alt="user">
+                        <span class="header__top-btn-text">Личный кабинет</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="header__body">
+            <div class="xl-wrapper header__body-inner">
+                <div class="header__body-nav-wrap">
+                    <a href="/"><img class="logo header__logo" src="images/main-logo.png" alt="main-logo"></a>
+                    <nav class="header__nav">
+                        <div class="header__nav-close">&#10006;</div>
+                        <a class="header__nav-link" href="/#business">О бизнесе</a>
+                        <a class="header__nav-link" href="/#plans">Пакеты</a>
+                        <a class="header__nav-link" href="/#investors">Инвесторам</a>
+                        <a class="header__nav-link" href="/#reviews">Отзывы</a>
+                        <a class="header__nav-link nav-js" href="#contacts">Контакты</a>
+                    </nav>
+                </div>
+                <div class="header__body-right">
+                    <div class="mobile-button">☰</div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="auth">
+        <h3 class="auth__title">Добро пожаловать в личный кабинет</h3>
+        <p class="auth__sub-title">Регистрация</p>
+        <form class="auth-form s-wrapper">
+            <label class="auth-form__double-wrap">
+                <input type="text" class="auth-form__double-input default-input" placeholder="Имя">
+                <input type="text" class="auth-form__double-input default-input" placeholder="Фамилия">
+            </label>
+            <label class="auth-form__label">
+                <input type="text" class="auth-form__input default-input" placeholder="Отчество">
+            </label>
+            <label class="auth-form__label">
+                <input type="date" class="auth-form__input default-input default-input_date" placeholder="Дата рождения">
+            </label>
+            <label class="auth-form__label">
+                <input type="text" class="auth-form__input default-input" placeholder="Логин">
+            </label>
+            <label class="auth-form__label">
+                <input type="text" class="auth-form__input default-input" placeholder="Пароль">
+            </label>
+            <label class="auth-form__label">
+                <input type="text" class="auth-form__input default-input" placeholder="Пароль повторно">
+            </label>
+            <label class="auth-form__label">
+                <input type="text" class="auth-form__input default-input" placeholder="Электронная почта">
+            </label>
+            <label class="auth-form__label">
+                <input type="text" class="auth-form__input default-input" placeholder="Номер телефона">
+            </label>
+            <div class="auth-form__btn-wrap">
+                <button class="accent-btn auth-form__btn">Регистрация</button>
+                <a class="auth-form__link" href="login.html">Уже есть аккаунт? Вход</a>
+            </div>
+            <label class="auth-form__check-wrap auth-form__check-first">
+                <input type="checkbox" class="auth-form__checkbox">
+                <div class="custom-checkbox auth-form__custom-checkbox"></div>
+                <p class="custom-checkbox__text">Я принимаю <a href="#" class="auth-form__check-link">Условия и положения</a>,
+                    <a href="#" class="auth-form__check-link">Политика конфиденциальности</a>, <a href="#" class="auth-form__check-link">Политика AML</a></p>
+            </label>
+            <label class="auth-form__check-wrap">
+                <input type="checkbox" class="auth-form__checkbox">
+                <div class="custom-checkbox auth-form__custom-checkbox"></div>
+                <p class="custom-checkbox__text">Мне 18 лет и больше</p>
+            </label>
+        </form>
+    </section>
+    <footer class="footer" id="contacts">
+        <div class="xl-wrapper footer__inner-wrap">
+            <div class="footer__nav-wrap">
+                <img src="images/main-logo.png" alt="" class="logo footer__logo">
+                <div class="footer__nav">
+                    <div class="footer__nav-title">Навигация</div>
+                    <a href="/#business" class="footer__nav-link">О бизнесе</a>
+                    <a href="/#plans" class="footer__nav-link">Пакеты</a>
+                    <a href="/#investors" class="footer__nav-link">Инвесторам</a>
+                    <a href="/#reviews" class="footer__nav-link">Отзывы</a>
+                    <a href="#contacts" class="footer__nav-link">Контакты</a>
+                </div>
+                <div class="footer__nav">
+                    <div class="footer__nav-title">Информация</div>
+                    <a href="#" class="footer__nav-link">Договор займа</a>
+                    <a href="#" class="footer__nav-link">Приложение к договору займа</a>
+                    <a href="#" class="footer__nav-link">Приходно-кассовый ордер</a>
+                </div>
+                <div class="footer__nav footer__nav_last">
+                    <div class="footer__nav-title">Контакты</div>
+                    <a href="#" class="footer__nav-link">INFO@TRB-INVEST.RU</a>
+                    <a href="#" class="footer__nav-link">Онлайн чат</a>
+                </div>
+            </div>
+            <div class="footer__number-wrap">
+                <a href="#" class="footer__number">8 800 511 69 74</a>
+                <div class="footer__number-about">бесплатно по России</div>
+            </div>
+        </div>
+        <div class="footer__bottom">
+            <div class="xl-wrapper footer__bottom-inner">
+                <div class="footer__copy">Copyright © 2021, TRB Invest Все торговые марки и авторские права принадлежат их настоящим владельцам</div>
+                <div class="footer__social-wrap">
+                    <a class="footer__social-link footer__social-link_first" href="#"><img class="footer__social-img" src="images/vk_circled_60px.png" alt="social"></a>
+                    <a class="footer__social-link" href="#"><img class="footer__social-img" src="images/Facebook_60px.png" alt="social"></a>
+                    <a class="footer__social-link" href="#"><img class="footer__social-img" src="images/telegram_app_60px.png" alt="social"></a>
+                    <a class="footer__social-link" href="#"><img class="footer__social-img" src="images/instagram_circle_60px.png" alt="social"></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</main>
+</body>
+<script src="scripts/script.js"></script>
+</html>

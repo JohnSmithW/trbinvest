@@ -1,0 +1,332 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/admin.css">
+    <link rel="stylesheet" href="styles/media.css" media="all and (max-width: 1440px)">
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+<main>
+    <header class="header">
+        <div class="header__top">
+            <div class="xl-wrapper header__top-inner">
+                <div class="header__top-nav">
+                    <a href="#" class="header__top-link">8 800 511 69 74</a>
+                    <a href="#" class="header__top-link">trb-invest@mail.ru</a>
+                    <a href="#" class="header__top-link">Онлайн-чат</a>
+                </div>
+                <div class="header__top-btn-wrap">
+                    <button class="header__top-btn"><img class="header__ico" src="images/search_60px.png" alt="search"></button>
+                    <button class="header__top-btn"><img class="header__ico" src="images/sms_90px.png" alt="message"></button>
+                    <button class="header__top-btn header__account-btn-wrap">
+                        <div class="header__account-btn">
+                            <img class="header__ico" src="images/user_90px.png" alt="user">
+                            <span class="header__top-btn-text">Личный кабинет</span>
+                        </div>
+                        <div class="header__account-menu">
+                            <div class="header__account-menu-top">
+                                <img src="images/ryabin-trb.jpg" alt="account-img" class="header__account-img">
+                                <span class="header__account-text-wrap">
+                                    <div class="header__account-name">Никита Рябин</div>
+                                    <a class="header__account-settings" href="#">настройки аккаунта</a>
+                                </span>
+                                <img alt="ico" class="header__account-ico header__account-close" src="images/expand_arrow_100px.png">
+                            </div>
+                            <a class="header__account-menu-bottom" href="#">
+                                <img src="images/exit_30px.png" alt="exit" class="header_account-exit-img">
+                                <span class="header_account-exit-text">выход</span>
+                            </a>
+                        </div>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="header__body">
+            <div class="xl-wrapper header__body-inner">
+                <div class="header__body-nav-wrap">
+                    <a href="/"><img class="logo header__logo" src="images/main-logo.png" alt="main-logo"></a>
+                    <nav class="header__nav">
+                        <div class="header__nav-close">&#10006;</div>
+                        <a class="header__nav-link" href="dashboard.html">Дашбоард</a>
+                        <a class="header__nav-link" href="news.html">Новости</a>
+                        <a class="header__nav-link" href="invest.html">Инвестиции</a>
+                        <a class="header__nav-link" href="team.html">Команда</a>
+                        <a class="header__nav-link" href="finance.html">Финансы</a>
+                        <a class="header__nav-link" href="media.html">Медиа</a>
+                    </nav>
+                </div>
+                <div class="header__body-right">
+                    <a class="header__live-wrap" href="#">
+                        <img class="header__live-img" src="images/live.png" alt="live">
+                        <span class="header__live-text">LIVE</span>
+                    </a>
+                    <div class="mobile-button">☰</div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="balances">
+        <div class="balances__inner-wrap xl-wrapper">
+            <h3 class="balances__title block-title">Балансы</h3>
+            <div class="balances__wrap">
+                <div class="balances__wrap-col">
+                    <div class="balances__item">
+                        <div class="balances__ico">
+                            <img class="balances__img" src="/images/balances/bank_cards_100px.png" alt="">
+                        </div>
+                        <div class="lk-stat__wrap">
+                            <p class="lk-stat__value">10 000 руб.</p>
+                            <p class="lk-stat__about">текущий баланс</p>
+                        </div>
+                    </div>
+                    <div class="balances__item">
+                        <div class="balances__ico">
+                            <img class="balances__img" src="/images/balances/safe_48px.png" alt="">
+                        </div>
+                        <div class="lk-stat__wrap">
+                            <p class="lk-stat__value">10 000 руб.</p>
+                            <p class="lk-stat__about">накопительный счёт</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="balances__wrap-col">
+                    <div class="balances__item">
+                        <div class="balances__ico">
+                            <img class="balances__img" src="/images/balances/team_60px.png" alt="">
+                        </div>
+                        <div class="lk-stat__wrap">
+                            <p class="lk-stat__value">10 000 руб.</p>
+                            <p class="lk-stat__about">партнёрский баланс</p>
+                        </div>
+                    </div>
+                    <div class="balances__item">
+                        <div class="balances__ico">
+                            <span class="balances__ico-num">₽</span>
+                        </div>
+                        <div class="lk-stat__wrap">
+                            <p class="lk-stat__value">10 000 руб.</p>
+                            <p class="lk-stat__about">общий баланс</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="stats xl-wrapper">
+        <div class="stats__block-row">
+            <div class="stats__block-40 stats__block">
+                <div class="stats__inner-block default-block stats__block_purse">
+                    <h3 class="stats__block-title block-title">Личные инвестиции</h3>
+                    <div class="stats__stat-wrap">
+                        <div class="stats__stat-col">
+                            <div class="lk-stat__wrap stats__stat">
+                                <p class="lk-stat__value">10 000 руб.</p>
+                                <p class="lk-stat__about">всего депозитов</p>
+                            </div>
+                            <div class="lk-stat__wrap stats__stat">
+                                <p class="lk-stat__value">10 000 руб.</p>
+                                <p class="lk-stat__about">всего выведено</p>
+                            </div>
+                            <div class="lk-stat__wrap stats__stat">
+                                <p class="lk-stat__value">10 000 руб.</p>
+                                <p class="lk-stat__about">доход с инвестиций</p>
+                            </div>
+                        </div>
+                        <div class="stats__stat-col">
+                            <div class="lk-stat__wrap stats__stat">
+                                <p class="lk-stat__value">10 000 руб.</p>
+                                <p class="lk-stat__about">доход в месяц</p>
+                            </div>
+                            <div class="lk-stat__wrap stats__stat">
+                                <p class="lk-stat__value">10 000 руб.</p>
+                                <p class="lk-stat__about">количество депозитов</p>
+                            </div>
+                            <div class="lk-stat__wrap stats__stat">
+                                <p class="lk-stat__value">10 000 руб.</p>
+                                <p class="lk-stat__about">средний % доходности</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="stats__block-60 stats__block">
+                <div class="stats__inner-block default-block stats__block_note">
+                    <h3 class="stats__block-title block-title">Партнёрская программа</h3>
+                    <div class="stats__stat-wrap">
+                        <div class="stats__stat-col">
+                            <div class="lk-stat__wrap stats__stat">
+                                <p class="lk-stat__value">10 000 руб.</p>
+                                <p class="lk-stat__about">всего депозитов</p>
+                            </div>
+                            <div class="lk-stat__wrap stats__stat">
+                                <p class="lk-stat__value">10 000 руб.</p>
+                                <p class="lk-stat__about">всего выведено</p>
+                            </div>
+                            <div class="lk-stat__wrap stats__stat">
+                                <p class="lk-stat__value">10 000 руб.</p>
+                                <p class="lk-stat__about">доход с инвестиций</p>
+                            </div>
+                        </div>
+                        <div class="stats__stat-col">
+                            <div class="lk-stat__wrap stats__stat">
+                                <p class="lk-stat__value">10 000 руб.</p>
+                                <p class="lk-stat__about">доход в месяц</p>
+                            </div>
+                            <div class="lk-stat__wrap stats__stat">
+                                <p class="lk-stat__value">10 000 руб.</p>
+                                <p class="lk-stat__about">количество депозитов</p>
+                            </div>
+                            <div class="lk-stat__wrap stats__stat">
+                                <p class="lk-stat__value">10 000 руб.</p>
+                                <p class="lk-stat__about">средний % доходности</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="stats__block-row">
+            <div class="stats__block-40 stats__block">
+                <div class="stats__inner-block default-block">
+                    <h3 class="stats__block-title block-title">Ваши инвестиционные пакеты</h3>
+                    <div class="stats__plan-wrap">
+                        <div class="stats__plan">
+                            <p class="stats__plan-percent">10%</p>
+                            <div class="">
+                                <p class="lk-stat__value">10 000 руб.</p>
+                                <p class="lk-stat__about">дата инвестиции 23.03.21</p>
+                            </div>
+                            <div class="option-btn">
+                                <span>Опции</span>
+                                <img class="option-btn__img" src="images/expand_arrow_100px.png" alt="option">
+                            </div>
+                        </div>
+                        <div class="stats__plan">
+                            <p class="stats__plan-percent">10%</p>
+                            <div class="">
+                                <p class="lk-stat__value">10 000 руб.</p>
+                                <p class="lk-stat__about">дата инвестиции 23.03.21</p>
+                            </div>
+                            <div class="option-btn">
+                                <span>Опции</span>
+                                <img class="option-btn__img" src="images/expand_arrow_100px.png" alt="option">
+                            </div>
+                        </div>
+                        <div class="stats__plan">
+                            <p class="stats__plan-percent">10%</p>
+                            <div class="">
+                                <p class="lk-stat__value">10 000 руб.</p>
+                                <p class="lk-stat__about">дата инвестиции 23.03.21</p>
+                            </div>
+                            <div class="option-btn">
+                                <span>Опции</span>
+                                <img class="option-btn__img" src="images/expand_arrow_100px.png" alt="option">
+                            </div>
+                        </div>
+                    </div>
+                    <a class="accent-btn stats__plan-btn" href="#">Все инвестиционные пакеты</a>
+                </div>
+            </div>
+            <div class="stats__block-60 stats__block">
+                <div class="stats__inner-block default-block">
+                    <h3 class="stats__block-title block-title">Карьера</h3>
+                    <div class="stats__team-top">
+                        <div class="stats__team-top-stat">
+                            <p class="lk-stat__value">Лидер</p>
+                            <p class="lk-stat__about">ваш статус</p>
+                        </div>
+                        <div class="stats__team-top-stat">
+                            <p class="lk-stat__value">3</p>
+                            <p class="lk-stat__about">открыто линий</p>
+                        </div>
+                    </div>
+                    <div class="stats__team-body-title">Для следующего статуса требуется:</div>
+                    <div class="stats__stat-wrap stats__team-body">
+                        <div class="stats__stat-col stats__team-col">
+                            <div class="lk-stat__wrap stats__stat">
+                                <p class="lk-stat__value">2</p>
+                                <p class="lk-stat__about">количество активных прямых партнёров</p>
+                            </div>
+                            <div class="lk-stat__wrap stats__stat">
+                                <p class="lk-stat__value">0</p>
+                                <p class="lk-stat__about">количество лидеров в статусе “Лидер”</p>
+                            </div>
+                        </div>
+                        <div class="stats__stat-col stats__team-col">
+                            <div class="lk-stat__wrap stats__stat">
+                                <p class="lk-stat__value">0</p>
+                                <p class="lk-stat__about">количество лидеров в статусе “Куратор”</p>
+                            </div>
+                            <div class="lk-stat__wrap stats__stat">
+                                <p class="lk-stat__value">233 200 / 10 000 / 0 / 0 / 0 руб.</p>
+                                <p class="lk-stat__about">требуемый оборот по 5-ти линиям</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="stats__team-bottom">Прогнозируемый доход на следующем статусе 1 000 000 руб</div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="profit-graph xl-wrapper">
+        <div class="profit-graph__block default-block">
+            <h3 class="profit-graph__title block-title">Динамика дохода</h3>
+            <div class="profit-graph__graph-wrap">
+                <select class="profit-graph__select default-select">
+                    <option>Статистика за день</option>
+                    <option>Статистика за неделю</option>
+                    <option>Статистика за месяц</option>
+                </select>
+            </div>
+        </div>
+    </section>
+    <footer class="footer" id="contacts">
+        <div class="xl-wrapper footer__inner-wrap">
+            <div class="footer__nav-wrap">
+                <img src="images/main-logo.png" alt="" class="logo footer__logo">
+                <div class="footer__nav">
+                    <div class="footer__nav-title">Навигация</div>
+                    <a href="/#business" class="footer__nav-link">О бизнесе</a>
+                    <a href="/#plans" class="footer__nav-link">Пакеты</a>
+                    <a href="/#investors" class="footer__nav-link">Инвесторам</a>
+                    <a href="/#reviews" class="footer__nav-link">Отзывы</a>
+                    <a href="#contacts" class="footer__nav-link">Контакты</a>
+                </div>
+                <div class="footer__nav">
+                    <div class="footer__nav-title">Информация</div>
+                    <a href="#" class="footer__nav-link">Договор займа</a>
+                    <a href="#" class="footer__nav-link">Приложение к договору займа</a>
+                    <a href="#" class="footer__nav-link">Приходно-кассовый ордер</a>
+                </div>
+                <div class="footer__nav footer__nav_last">
+                    <div class="footer__nav-title">Контакты</div>
+                    <a href="#" class="footer__nav-link">INFO@TRB-INVEST.RU</a>
+                    <a href="#" class="footer__nav-link">Онлайн чат</a>
+                </div>
+            </div>
+            <div class="footer__number-wrap">
+                <a href="#" class="footer__number">8 800 511 69 74</a>
+                <div class="footer__number-about">бесплатно по России</div>
+            </div>
+        </div>
+        <div class="footer__bottom">
+            <div class="xl-wrapper footer__bottom-inner">
+                <div class="footer__copy">Copyright © 2021, TRB Invest Все торговые марки и авторские права принадлежат их настоящим владельцам</div>
+                <div class="footer__social-wrap">
+                    <a class="footer__social-link footer__social-link_first" href="#"><img class="footer__social-img" src="images/vk_circled_60px.png" alt="social"></a>
+                    <a class="footer__social-link" href="#"><img class="footer__social-img" src="images/Facebook_60px.png" alt="social"></a>
+                    <a class="footer__social-link" href="#"><img class="footer__social-img" src="images/telegram_app_60px.png" alt="social"></a>
+                    <a class="footer__social-link" href="#"><img class="footer__social-img" src="images/instagram_circle_60px.png" alt="social"></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</main>
+</body>
+<script src="scripts/script.js"></script>
+</html>
