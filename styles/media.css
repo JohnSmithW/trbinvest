@@ -505,9 +505,7 @@
     }
 
     .header__top-inner {
-        -webkit-box-pack: end;
-        -ms-flex-pack: end;
-        justify-content: end;
+        justify-content: flex-end;
     }
     .calc-popup__block {
         width: 100%;

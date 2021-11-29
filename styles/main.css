@@ -94,6 +94,9 @@ input, button {
     -o-transition: border .3s;
     transition: border .3s;
     margin-left: 15px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
 }
 
 .header__top-btn:hover {
