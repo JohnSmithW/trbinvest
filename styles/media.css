@@ -505,7 +505,7 @@
     }
 
     .header__top-inner {
-        justify-content: flex-end;
+        justify-content: end;
     }
     .calc-popup__block {
         width: 100%;
