@@ -90,7 +90,7 @@
     }
 
     .mobile-button {
-        display: block;
+        display: flex;
     }
 
     .header__body-inner {
