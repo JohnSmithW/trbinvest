@@ -598,6 +598,10 @@
     margin-bottom: 50px;
 }
 
+.team-structure__block {
+    margin-bottom: 100px;
+}
+
 .team-top__btn-wrap {
     text-align: right;
 }
