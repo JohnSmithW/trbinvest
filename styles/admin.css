@@ -200,7 +200,9 @@
     border-radius: 4px;
     padding: 15px 30px;
     color: #8B8B8B;
+    -webkit-appearance: none;
     font-weight: normal;
+    border: 0;
 }
 
 .profit-graph__select {
