@@ -524,9 +524,6 @@
     }
 }
 
-@media all and (max-width: 650px) {
-}
-
 @media all and (max-width: 550px) {
     .members-list__stat_mob {
         display: none;
