@@ -178,7 +178,11 @@
 .stats__plan-percent {
     font-size: 24px;
     font-weight: normal;
-    margin: 0;
+    margin: 0 25px 0 0;
+}
+
+.stats__plan-info {
+    margin-right: 25px;
 }
 
 .stats__plan-wrap {
@@ -1288,4 +1292,39 @@
 .finance-filter__block-img {
     width: 30px;
     margin-right: 15px;
+}
+
+.media {
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.media__title {
+    margin-bottom: 50px;
+}
+
+.media__img {
+    width: 300px;
+    height: 150px;
+    object-fit: contain;
+    margin-bottom: 25px;
+    background: #f6f6f6;
+}
+
+.media__item {
+    width: 300px;
+    display: block;
+    text-decoration: none;
+    margin-bottom: 25px;
+
+}
+
+.media__block-title {
+    font-size: 14px;
+}
+
+.media__wrap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }

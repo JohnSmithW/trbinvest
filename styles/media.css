@@ -29,7 +29,7 @@
         padding: 15px 30px;
         color: #b7b7b7;
         margin-right: 0;
-        font-size: 14px;
+        font-size: 16px;
         border-bottom: solid 1px #eaeaea;
     }
 
@@ -528,6 +528,13 @@
     }
 }
 
+@media all and (max-width: 650px) {
+    .media__wrap {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
 @media all and (max-width: 550px) {
     .members-list__stat_mob {
         display: none;
@@ -766,6 +773,10 @@
     .reviews__block-inner {
         background-position: right -150px top -200px;
     }
+
+    .stats__plan-percent {
+        font-size: 18px;
+    }
 }
 
 @media all and (max-width: 376px) {
@@ -803,15 +814,6 @@
     .team-stats__stats-col:first-child {
         margin-right: 0;
         margin-bottom: 25px;
-    }
-    .stats__plan-percent {
-        -ms-flex-preferred-size: 100%;
-        flex-basis: 100%;
-        margin-bottom: 10px;
-    }
-    .stats__plan {
-        -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
     }
     .plans__slider {
         padding: 0 5px;
@@ -861,6 +863,13 @@
     .stats__plan-btn {
         font-size: 14px;
         padding: 15px 20px;
+    }
+    .stats__plan-value {
+        font-size: 15px;
+    }
+
+    .stats__plan-about {
+        font-size: 12px;
     }
 }
 
