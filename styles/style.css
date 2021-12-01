@@ -310,7 +310,7 @@
 }
 
 .history__btn {
-    font-size: 14px;
+    font-size: 18px;
 }
 
 .history__block-title {
@@ -515,6 +515,15 @@
     -ms-flex-item-align: start;
     -ms-grid-row-align: start;
     align-self: start;
+    font-size: 18px;
+}
+
+.business__about-btn {
+    font-size: 18px;
+}
+
+.reviews__btn {
+    font-size: 18px;
 }
 
 .investors__block-three {

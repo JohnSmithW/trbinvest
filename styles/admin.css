@@ -600,8 +600,16 @@
 }
 
 .invest-list__setting-btn {
-    font-size: 18px;
+    font-size: 14px;
     white-space: nowrap;
+}
+
+.stats__plan-btn {
+    font-size: 14px;
+}
+
+.members-search__btn {
+    font-size: 14px;
 }
 
 .invest-list__btn-wrap {
@@ -1327,4 +1335,216 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+}
+
+.account-settings__title {
+    margin-bottom: 50px;
+}
+
+.account-settings {
+    margin-top: 50px;
+}
+
+.account-settings__main-block {
+    margin-bottom: 50px;
+}
+
+.account-settings__img {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+    background: #F9F9F9;
+    border-radius: 20px;
+    border: solid 1px #e7e7e7;
+}
+
+.account-settings__main-info {
+    display: flex;
+}
+
+.account-settings__main-col {
+    margin-right: 50px;
+}
+
+.account-settings__main-stat {
+    margin-bottom: 25px;
+}
+
+.account-settings__main-stat:last-child {
+    margin-bottom: 0;
+}
+
+.account-settings__main-ico {
+    width: 20px;
+    margin-left: 10px;
+}
+
+.account-settings__main-ico-wrap {
+    display: flex;
+    align-items: center;
+}
+
+.account-settings__main-info {
+    margin-bottom: 50px;
+}
+
+.not-photo {
+    width: 100px;
+    height: 100px;
+    background: #F9F9F9;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.not-photo__img {
+    width: 30px;
+    height: 30px;
+}
+
+.account-settings {
+    margin-bottom: 100px;
+}
+
+.account-settings__sub-title {
+    font-size: 14px;
+    color: #8B8B8B;
+    margin: 0 0 25px 0;
+}
+
+.account-settings__block-title {
+    margin-bottom: 25px;
+}
+
+.account-settings__sub-stat {
+    margin-right: 50px;
+}
+
+.account-settings__sub-stat:last-child {
+    margin-right: 0;
+}
+
+.account-settings__main-sub {
+    display: flex;
+}
+
+.account-settings__two-block {
+    flex-basis: 50%;
+}
+
+.account-settings__two-block-wrap {
+    display: flex;
+}
+
+.account-settings__two-block:first-child {
+    padding-right: 15px;
+}
+
+.account-settings__two-block:last-child {
+    padding-left: 15px;
+}
+
+.account-settings__contact-wrap {
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.account-settings__contact-col {
+    margin-right: 50px;
+}
+
+.account-settings__contact-col:last-child {
+    margin-right: 0;
+}
+
+.account-settings__contact-stat:first-child {
+    margin-bottom: 25px;
+}
+
+.account-settings__social-img {
+    width: 25px;
+    margin-right: 15px;
+}
+
+.account-settings__social-item {
+    display: flex;
+    align-items: center;
+    margin-right: 50px;
+}
+
+.account-settings__social-item:last-child {
+    margin-right: 0;
+}
+
+.account-settings__social-wrap {
+    display: flex;
+    margin-bottom: 25px;
+}
+
+.account-settings__two-block {
+    margin-bottom: 50px;
+}
+
+.account-settings__two-inner {
+    height: 100%;
+}
+
+.account-settings__form-security-select {
+    font-size: 14px;
+    margin-bottom: 10px;
+    width: 250px;
+}
+
+.account-settings__form-security-about {
+    font-size: 14px;
+    color: #8B8B8B;
+}
+
+.account-settings__form-security-label {
+    margin-bottom: 25px;
+    display: block;
+}
+
+.account-settings__change-btn {
+    font-size: 14px;
+}
+
+.account-settings__bank-info {
+    flex-grow: 1;
+}
+
+.account-settings__bank-item {
+    display: flex;
+    align-items: center;
+    padding-bottom: 25px;
+    margin-bottom: 25px;
+    border-bottom: #E6E6E6 solid 1px;
+}
+
+.account-settings__bank-item:last-child {
+    padding-bottom: 0;
+    margin-bottom: 0;
+    border-bottom: none;
+}
+
+.account-settings__bank-wrap {
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.account-settings__bank-col {
+    flex-basis: 50%;
+}
+
+.account-settings__bank-col:first-child {
+    padding-right: 15px;
+}
+
+.account-settings__bank-col:last-child {
+    padding-left: 15px;
+}
+
+.account-settings__bank-opt {
+    justify-content: end;
 }

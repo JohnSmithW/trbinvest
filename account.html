@@ -1,0 +1,350 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/admin.css">
+    <link rel="stylesheet" href="styles/media.css" media="all and (max-width: 1440px)">
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+<main>
+    <header class="header">
+        <div class="header__top">
+            <div class="xl-wrapper header__top-inner">
+                <div class="header__top-nav">
+                    <a href="#" class="header__top-link">8 800 511 69 74</a>
+                    <a href="#" class="header__top-link">trb-invest@mail.ru</a>
+                    <a href="#" class="header__top-link">Онлайн-чат</a>
+                </div>
+                <div class="header__top-btn-wrap">
+                    <button class="header__top-btn"><img class="header__ico" src="images/search_60px.png" alt="search"></button>
+                    <button class="header__top-btn"><img class="header__ico" src="images/sms_90px.png" alt="message"></button>
+                    <button class="header__top-btn header__account-btn-wrap">
+                        <div class="header__account-btn">
+                            <img class="header__ico" src="images/user_90px.png" alt="user">
+                            <span class="header__top-btn-text">Личный кабинет</span>
+                        </div>
+                        <div class="header__account-menu">
+                            <div class="header__account-menu-top">
+                                <img src="images/ryabin-trb.jpg" alt="account-img" class="header__account-img">
+                                <span class="header__account-text-wrap">
+                                    <div class="header__account-name">Никита Рябин</div>
+                                    <a class="header__account-settings" href="account.html">настройки аккаунта</a>
+                                </span>
+                                <img alt="ico" class="header__account-ico header__account-close" src="images/expand_arrow_100px.png">
+                            </div>
+                            <a class="header__account-menu-bottom" href="#">
+                                <img src="images/exit_30px.png" alt="exit" class="header_account-exit-img">
+                                <span class="header_account-exit-text">выход</span>
+                            </a>
+                        </div>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="header__body">
+            <div class="xl-wrapper header__body-inner">
+                <div class="header__body-nav-wrap">
+                    <a href="index.html"><img class="logo header__logo" src="images/main-logo.png" alt="main-logo"></a>
+                    <nav class="header__nav">
+                        <div class="header__nav-close">&#10006;</div>
+                        <a class="header__nav-link" href="dashboard.html">Дашбоард</a>
+                        <a class="header__nav-link" href="news.html">Новости</a>
+                        <a class="header__nav-link" href="invest.html">Инвестиции</a>
+                        <a class="header__nav-link" href="team.html">Команда</a>
+                        <a class="header__nav-link" href="finance.html">Финансы</a>
+                        <a class="header__nav-link" href="media.html">Медиа</a>
+                    </nav>
+                </div>
+                <div class="header__body-right">
+                    <a class="header__live-wrap" href="#">
+                        <img class="header__live-img" src="images/live.png" alt="live">
+                        <span class="header__live-text">LIVE</span>
+                    </a>
+                    <img alt="menu" class="mobile-button" src="images/menu.svg">
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="account-settings xl-wrapper">
+        <h2 class="account-settings__title section-title">Настройки аккаунта</h2>
+        <div class="account-settings__main-block default-block">
+            <h3 class="block-title account-settings__block-title">Основная информация</h3>
+            <div class="account-settings__main-info">
+                <div class="not-photo account-settings__main-col">
+                    <img src="images/camera_90px.png" alt="no-photo" class="not-photo__img">
+                </div>
+<!--                <img src="images/ryabin-trb.jpg" alt="img" class="account-settings__img account-settings__main-col">-->
+                <div class="account-settings__main-col">
+                    <div class="account-settings__main-stat">
+                        <p class="lk-stat__value account-settings__main-ico-wrap">Иванов Иван Иванов <img src="images/ok_30px.png" alt="ok"
+                                                                          class="account-settings__main-ico"></p>
+                        <p class="lk-stat__about">ваше имя</p>
+                    </div>
+                    <div class="account-settings__main-stat">
+                        <p class="lk-stat__value">10.01.2003</p>
+                        <p class="lk-stat__about">дата рождения</p>
+                    </div>
+                </div>
+                <div class="account-settings__main-col">
+                    <div class="account-settings__main-stat">
+                        <p class="lk-stat__value">ivan228899</p>
+                        <p class="lk-stat__about">ваш логин</p>
+                    </div>
+                    <div class="account-settings__main-stat">
+                        <p class="lk-stat__value">mailaddasdas@mail.ru</p>
+                        <p class="lk-stat__about">электронная почта</p>
+                    </div>
+                </div>
+                <div class="account-settings__main-col">
+                    <div class="account-settings__main-stat">
+                        <p class="lk-stat__value">+79132205353</p>
+                        <p class="lk-stat__about">номер телефона</p>
+                    </div>
+                </div>
+            </div>
+            <h3 class="account-settings__sub-title">дополнительная информация</h3>
+            <div class="account-settings__main-sub">
+                <div class="account-settings__sub-stat">
+                    <p class="lk-stat__value">TRBI</p>
+                    <p class="lk-stat__about">бизнес ангел</p>
+                </div>
+                <div class="account-settings__sub-stat">
+                    <p class="lk-stat__value">iprub, trb, turbonik</p>
+                    <p class="lk-stat__about">амбассадоры</p>
+                </div>
+            </div>
+        </div>
+        <div class="account-settings__two-block-wrap">
+            <div class="account-settings__two-block">
+                <div class="account-settings__two-inner default-block">
+                    <h3 class="block-title account-settings__block-title">Контактная информация</h3>
+                    <div class="account-settings__contact-wrap">
+                        <div class="account-settings__contact-col">
+                            <div class="account-settings__contact-stat">
+                                <p class="lk-stat__value">656062</p>
+                                <p class="lk-stat__about">почтовый индекс</p>
+                            </div>
+                            <div class="account-settings__contact-stat">
+                                <p class="lk-stat__value">Проспект Ленина</p>
+                                <p class="lk-stat__about">улица</p>
+                            </div>
+                        </div>
+                        <div class="account-settings__contact-col">
+                            <div class="account-settings__contact-stat">
+                                <p class="lk-stat__value">Россия</p>
+                                <p class="lk-stat__about">страна</p>
+                            </div>
+                            <div class="account-settings__contact-stat">
+                                <p class="lk-stat__value">212</p>
+                                <p class="lk-stat__about">дом</p>
+                            </div>
+                        </div>
+                        <div class="account-settings__contact-col">
+                            <div class="account-settings__contact-stat">
+                                <p class="lk-stat__value">Москва</p>
+                                <p class="lk-stat__about">город</p>
+                            </div>
+                            <div class="account-settings__contact-stat">
+                                <p class="lk-stat__value">2</p>
+                                <p class="lk-stat__about">квартира</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="account-settings__social-wrap">
+                        <div class="account-settings__social-item">
+                            <img src="images/instagram_circle_60px.png" alt="inst" class="account-settings__social-img">turbo_factory
+                        </div>
+                        <div class="account-settings__social-item">
+                            <img src="images/telegram_app_60px.png" alt="inst" class="account-settings__social-img">turbo_factory
+                        </div>
+                        <div class="account-settings__social-item">
+                            <img src="images/vk_circled_60px.png" alt="inst" class="account-settings__social-img">turbo_factory
+                        </div>
+                    </div>
+                    <button class="link-btn account-settings__btn">Редактировать</button>
+                </div>
+            </div>
+            <div class="account-settings__two-block">
+                <div class="account-settings__two-inner default-block">
+                    <h3 class="block-title account-settings__block-title">Настройки безопасности и конфиденциальности</h3>
+                    <form class="account-settings__form-security">
+                        <label class="account-settings__form-security-label">
+                            <div class="default-select__wrap account-settings__form-security-select">
+                                <select class="default-select">
+                                    <option>Электронная почта</option>
+                                </select>
+                                <img src="images/expand_arrow_100px.png" alt="" class="default-select__img">
+                            </div>
+                            <div class="account-settings__form-security-about">тип 2FA (ДВУХЭТАПНАЯ АУТЕНТИФИКАЦИЯ)</div>
+                        </label>
+                        <label class="account-settings__form-security-label">
+                            <div class="default-select__wrap account-settings__form-security-select">
+                                <select class="default-select">
+                                    <option>Да</option>
+                                    <option>Нет</option>
+                                </select>
+                                <img src="images/expand_arrow_100px.png" alt="" class="default-select__img">
+                            </div>
+                            <div class="account-settings__form-security-about">отображать меня в таблице лидеров</div>
+                        </label>
+                        <label class="account-settings__form-security-label">
+                            <div class="default-select__wrap account-settings__form-security-select">
+                                <select class="default-select">
+                                    <option>Да</option>
+                                    <option>Нет</option>
+                                </select>
+                                <img src="images/expand_arrow_100px.png" alt="" class="default-select__img">
+                            </div>
+                            <div class="account-settings__form-security-about">отображать контактную информацию партнёрам</div>
+                        </label>
+                    </form>
+                    <button class="link-btn account-settings__btn">Редактировать</button>
+                </div>
+            </div>
+        </div>
+        <div class="account-settings__bank default-block">
+            <h3 class="block-title account-settings__block-title">Реквизиты</h3>
+            <div class="account-settings__bank-wrap">
+                <div class="account-settings__bank-col">
+                    <div class="account-settings__bank-item">
+                        <div class="account-settings__bank-info">
+                            <p class="lk-stat__value">Банковская карта</p>
+                            <p class="lk-stat__about">тип</p>
+                        </div>
+                        <div class="account-settings__bank-info">
+                            <p class="lk-stat__value">0000 0000 0000 0000</p>
+                            <p class="lk-stat__about">номер счёта</p>
+                        </div>
+                        <div class="option-btn account-settings__bank-info account-settings__bank-opt">
+                            <span>Опции</span>
+                            <img class="option-btn__img" src="images/expand_arrow_100px.png" alt="option">
+                        </div>
+                    </div>
+                    <div class="account-settings__bank-item">
+                        <div class="account-settings__bank-info">
+                            <p class="lk-stat__value">Банковская карта</p>
+                            <p class="lk-stat__about">тип</p>
+                        </div>
+                        <div class="account-settings__bank-info">
+                            <p class="lk-stat__value">0000 0000 0000 0000</p>
+                            <p class="lk-stat__about">номер счёта</p>
+                        </div>
+                        <div class="option-btn account-settings__bank-info account-settings__bank-opt">
+                            <span>Опции</span>
+                            <img class="option-btn__img" src="images/expand_arrow_100px.png" alt="option">
+                        </div>
+                    </div>
+                    <div class="account-settings__bank-item">
+                        <div class="account-settings__bank-info">
+                            <p class="lk-stat__value">Банковская карта</p>
+                            <p class="lk-stat__about">тип</p>
+                        </div>
+                        <div class="account-settings__bank-info">
+                            <p class="lk-stat__value">0000 0000 0000 0000</p>
+                            <p class="lk-stat__about">номер счёта</p>
+                        </div>
+                        <div class="option-btn account-settings__bank-info account-settings__bank-opt">
+                            <span>Опции</span>
+                            <img class="option-btn__img" src="images/expand_arrow_100px.png" alt="option">
+                        </div>
+                    </div>
+                </div>
+                <div class="account-settings__bank-col">
+                    <div class="account-settings__bank-item">
+                        <div class="account-settings__bank-info">
+                            <p class="lk-stat__value">Банковская карта</p>
+                            <p class="lk-stat__about">тип</p>
+                        </div>
+                        <div class="account-settings__bank-info">
+                            <p class="lk-stat__value">0000 0000 0000 0000</p>
+                            <p class="lk-stat__about">номер счёта</p>
+                        </div>
+                        <div class="option-btn account-settings__bank-info account-settings__bank-opt">
+                            <span>Опции</span>
+                            <img class="option-btn__img" src="images/expand_arrow_100px.png" alt="option">
+                        </div>
+                    </div>
+                    <div class="account-settings__bank-item">
+                        <div class="account-settings__bank-info">
+                            <p class="lk-stat__value">Банковская карта</p>
+                            <p class="lk-stat__about">тип</p>
+                        </div>
+                        <div class="account-settings__bank-info">
+                            <p class="lk-stat__value">0000 0000 0000 0000</p>
+                            <p class="lk-stat__about">номер счёта</p>
+                        </div>
+                        <div class="option-btn account-settings__bank-info account-settings__bank-opt">
+                            <span>Опции</span>
+                            <img class="option-btn__img" src="images/expand_arrow_100px.png" alt="option">
+                        </div>
+                    </div>
+                    <div class="account-settings__bank-item">
+                        <div class="account-settings__bank-info">
+                            <p class="lk-stat__value">Банковская карта</p>
+                            <p class="lk-stat__about">тип</p>
+                        </div>
+                        <div class="account-settings__bank-info">
+                            <p class="lk-stat__value">0000 0000 0000 0000</p>
+                            <p class="lk-stat__about">номер счёта</p>
+                        </div>
+                        <div class="option-btn account-settings__bank-info account-settings__bank-opt">
+                            <span>Опции</span>
+                            <img class="option-btn__img" src="images/expand_arrow_100px.png" alt="option">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="link-btn account-settings__btn">Добавить счёт</button>
+        </div>
+    </section>
+    <footer class="footer" id="contacts">
+        <div class="xl-wrapper footer__inner-wrap">
+            <div class="footer__nav-wrap">
+                <img src="images/main-logo.png" alt="" class="logo footer__logo">
+                <div class="footer__nav">
+                    <div class="footer__nav-title">Навигация</div>
+                    <a href="/#business" class="footer__nav-link">О бизнесе</a>
+                    <a href="/#plans" class="footer__nav-link">Пакеты</a>
+                    <a href="/#investors" class="footer__nav-link">Инвесторам</a>
+                    <a href="/#reviews" class="footer__nav-link">Отзывы</a>
+                    <a href="#contacts" class="footer__nav-link">Контакты</a>
+                </div>
+                <div class="footer__nav">
+                    <div class="footer__nav-title">Информация</div>
+                    <a href="#" class="footer__nav-link">Договор займа</a>
+                    <a href="#" class="footer__nav-link">Приложение к договору займа</a>
+                    <a href="#" class="footer__nav-link">Приходно-кассовый ордер</a>
+                </div>
+                <div class="footer__nav footer__nav_last">
+                    <div class="footer__nav-title">Контакты</div>
+                    <a href="#" class="footer__nav-link">INFO@TRB-INVEST.RU</a>
+                    <a href="#" class="footer__nav-link">Онлайн чат</a>
+                </div>
+            </div>
+            <div class="footer__number-wrap">
+                <a href="#" class="footer__number">8 800 511 69 74</a>
+                <div class="footer__number-about">бесплатно по России</div>
+            </div>
+        </div>
+        <div class="footer__bottom">
+            <div class="xl-wrapper footer__bottom-inner">
+                <div class="footer__copy">Copyright © 2021, TRB Invest Все торговые марки и авторские права принадлежат их настоящим владельцам</div>
+                <div class="footer__social-wrap">
+                    <a class="footer__social-link footer__social-link_first" href="#"><img class="footer__social-img" src="images/vk_circled_60px.png" alt="social"></a>
+                    <a class="footer__social-link" href="#"><img class="footer__social-img" src="images/Facebook_60px.png" alt="social"></a>
+                    <a class="footer__social-link" href="#"><img class="footer__social-img" src="images/telegram_app_60px.png" alt="social"></a>
+                    <a class="footer__social-link" href="#"><img class="footer__social-img" src="images/instagram_circle_60px.png" alt="social"></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</main>
+</body>
+<script src="scripts/script.js"></script>
+</html>
