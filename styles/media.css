@@ -261,6 +261,21 @@
         -ms-flex-wrap: wrap;
         flex-wrap: wrap;
     }
+    .account-settings__two-block-wrap {
+        flex-wrap: wrap;
+    }
+
+    .account-settings__two-block {
+        flex-basis: 100%;
+    }
+
+    .account-settings__two-block:first-child {
+        padding-right: 0;
+    }
+
+    .account-settings__two-block:last-child {
+        padding-left: 0;
+    }
 }
 
 @media all and (max-width: 980px) {
@@ -306,6 +321,22 @@
 }
 
 @media all and (max-width: 769px) {
+
+    .account-settings__photo-wrap {
+        margin-bottom: 25px;
+    }
+
+    .account-settings__main-info {
+        flex-direction: column;
+    }
+
+    .account-settings__main-info {
+        flex-wrap: wrap;
+    }
+
+    .account-settings__main-stat:last-child {
+        margin-bottom: 25px;
+    }
 
     .finance__block:first-child {
         padding-right: 0;
@@ -536,6 +567,27 @@
 }
 
 @media all and (max-width: 550px) {
+
+    .account-settings__contact-wrap {
+        flex-direction: column;
+    }
+    .account-settings__contact-col {
+        margin-bottom: 25px;
+    }
+
+    .account-settings__contact-col:last-child {
+        margin-bottom: 0;
+    }
+    .account-settings__social-wrap {
+        flex-direction: column;
+    }
+    .account-settings__social-item {
+        margin-right: 0;
+        margin-bottom: 25px;
+    }
+    .account-settings__social-item:last-child {
+        margin-bottom: 0;
+    }
     .members-list__stat_mob {
         display: none;
     }
@@ -674,9 +726,12 @@
 
 @media all and (max-width: 426px) {
 
-    .custom-checkbox {
-        width: 15px;
-        height: 15px;
+    .account-settings__main-sub {
+        flex-direction: column;
+    }
+
+    .account-settings__sub-stat:first-child {
+        margin-bottom: 25px;
     }
 
     .invest-list__info {

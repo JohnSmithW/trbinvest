@@ -390,13 +390,14 @@
 }
 
 .custom-checkbox {
-    width: 20px;
-    height: 20px;
-    border: #868686 2px solid;
+    width: 15px;
+    height: 15px;
+    border: #b6b6b6 2px solid;
     border-radius: 4px;
     -ms-flex-negative: 0;
     flex-shrink: 0;
     cursor: pointer;
+    position: relative;
 }
 
 .auth-form__checkbox {
@@ -413,9 +414,6 @@
 
 .auth-form__checkbox {
     display: none;
-}
-.custom-checkbox {
-    position: relative;
 }
 
 .auth-form__checkbox:checked + .custom-checkbox:after {
