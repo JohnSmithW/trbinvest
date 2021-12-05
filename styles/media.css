@@ -276,6 +276,21 @@
     .account-settings__two-block:last-child {
         padding-left: 0;
     }
+
+    .account-settings__bank-wrap {
+        flex-direction: column;
+    }
+
+    .account-settings__bank-col:first-child {
+        padding-right: 0;
+        padding-bottom: 25px;
+        margin-bottom: 25px;
+        border-bottom: #E6E6E6 solid 1px;
+    }
+
+    .account-settings__bank-col:last-child {
+        padding-left: 0;
+    }
 }
 
 @media all and (max-width: 980px) {

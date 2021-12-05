@@ -36,7 +36,9 @@
                 <div class="header__body-nav-wrap">
                     <a href="index.html"><img class="logo header__logo" src="images/main-logo.png" alt="main-logo"></a>
                     <nav class="header__nav">
-                        <div class="header__nav-close">&#10006;</div>
+                        <div class="header__nav-close-wrap">
+                            <img src="images/close-black.svg" alt="close" class="close-button header__nav-close">
+                        </div>
                         <a class="header__nav-link" href="index.html#business">О бизнесе</a>
                         <a class="header__nav-link" href="index.html#plans">Пакеты</a>
                         <a class="header__nav-link" href="index.html#investors">Инвесторам</a>
@@ -85,13 +87,17 @@
             </div>
             <label class="auth-form__check-wrap auth-form__check-first">
                 <input type="checkbox" class="auth-form__checkbox">
-                <div class="custom-checkbox auth-form__custom-checkbox"></div>
+                <div class="custom-checkbox auth-form__custom-checkbox">
+                    <div class="custom-checkbox_active"></div>
+                </div>
                 <p class="custom-checkbox__text">Я принимаю <a href="#" class="auth-form__check-link">Условия и положения</a>,
                     <a href="#" class="auth-form__check-link">Политика конфиденциальности</a>, <a href="#" class="auth-form__check-link">Политика AML</a></p>
             </label>
             <label class="auth-form__check-wrap">
                 <input type="checkbox" class="auth-form__checkbox">
-                <div class="custom-checkbox auth-form__custom-checkbox"></div>
+                <div class="custom-checkbox auth-form__custom-checkbox">
+                    <div class="custom-checkbox_active"></div>
+                </div>
                 <p class="custom-checkbox__text">Мне 18 лет и больше</p>
             </label>
         </form>

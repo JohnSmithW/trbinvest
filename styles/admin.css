@@ -139,18 +139,53 @@
 }
 
 .option-btn {
-    font-size: 14px;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
     align-items: center;
     cursor: pointer;
+    z-index: 2;
+    position: relative;
+    font-size: 14px;
+}
+
+.option-btn__wrap {
+    position: relative;
+}
+
+.option-btn__block {
+    position: absolute;
+    background: #ffffff;
+    top: calc(100% + 5px);
+    display: none;
+    border: solid #e0e0e0 1px;
+    right: 0;
+}
+
+.option-btn__block_open {
+    display: flex;
+}
+
+.option-btn__link {
+    font-size: 13px;
+    text-decoration: none;
+    color: #868686;
+    padding: 5px 20px;
+    display: block;
+    text-align: right;
+    transition: color .3s;
+    border-bottom: 1px solid #C2C2C2;
+}
+
+.option-btn__link:hover {
+    color: #737373;
+    transition: color .3s;
+}
+
+.option-btn__link:last-child {
+    border-bottom: 0;
 }
 
 .option-btn__img {
-    width: 20px;
+    width: 15px;
     margin-left: 10px;
 }
 
@@ -392,12 +427,27 @@
 .custom-checkbox {
     width: 15px;
     height: 15px;
-    border: #b6b6b6 2px solid;
-    border-radius: 4px;
+    border: #333333 2px solid;
     -ms-flex-negative: 0;
     flex-shrink: 0;
     cursor: pointer;
     position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 25%;
+}
+
+.account-settings__btn {
+    font-size: 14px;
+}
+
+.custom-checkbox_active {
+    width: 11px;
+    height: 11px;
+    background: #FFDD20;
+    border-radius: 25%;
+    display: none;
 }
 
 .auth-form__checkbox {
@@ -416,17 +466,8 @@
     display: none;
 }
 
-.auth-form__checkbox:checked + .custom-checkbox:after {
-    content: '\2713';
-    color: #FFDD20;
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    font-weight: bold;
-    font-size: 18px;
+.auth-form__checkbox:checked + .custom-checkbox .custom-checkbox_active {
+    display: block;
 }
 
 .default-input_date {
@@ -525,17 +566,9 @@
     display: none;
 }
 
-.invest-list__checkbox:checked + .custom-checkbox:after {
-    content: '\2713';
-    color: #FFDD20;
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    font-weight: bold;
-    font-size: 18px;
+.invest-list__checkbox:checked + .custom-checkbox .custom-checkbox_active {
+    background: #FFDD20;
+    display: block;
 }
 
 .invest-list__checkbox-wrap {
@@ -574,6 +607,7 @@
     -webkit-box-pack: end;
     -ms-flex-pack: end;
     justify-content: end;
+    display: flex;
 }
 
 .invest-list__item {

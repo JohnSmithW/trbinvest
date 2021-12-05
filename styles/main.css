@@ -162,9 +162,12 @@
     font-size: 25px;
     color: #494949;
     cursor: pointer;
-    background: #f6f6f6;
-    padding: 10px 30px;
     font-weight: 300;
+    padding: 10px 30px;
+}
+
+.header__nav-close-wrap {
+    background: #f6f6f6;
 }
 
 .header__nav-link:hover {
@@ -270,6 +273,7 @@
     -webkit-transform: rotate(180deg);
     -ms-transform: rotate(180deg);
     transform: rotate(180deg);
+    cursor: pointer;
 }
 
 .header_account-exit-img {
@@ -621,6 +625,7 @@
 .footer__copy {
     color: #8B8B8B;
     font-size: 13px;
+    margin-right: 15px;
 }
 
 .footer__social-img {
@@ -640,22 +645,9 @@
 }
 
 .close-button {
-    height: 100px;
-    width: 100px;
+    height: 30px;
+    width: 30px;
     cursor: pointer;
-}
-
-.close-button:after {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    content: "\d7";
-    font-size: 30px;
-    color: #505050;
-    line-height: 100px;
-    text-align: center;
 }
 
 .swiper-button-prev,

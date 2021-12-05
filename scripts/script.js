@@ -101,3 +101,23 @@ function accountMenu() {
     }
 }
 accountMenu()
+
+function btnOpt() {
+    let buttons = document.querySelectorAll('.option-btn');
+
+    if (buttons) {
+        buttons.forEach(button => button.addEventListener('click', function () {
+            let status = this.dataset.status;
+
+            if (status === 'close') {
+                this.dataset.status = 'open';
+                this.nextElementSibling.classList.add('option-btn__block_open');
+            } else {
+                this.dataset.status = 'close';
+                this.nextElementSibling.classList.remove('option-btn__block_open');
+            }
+        }))
+    }
+}
+
+btnOpt()
